@@ -1,0 +1,101 @@
+/* Modal styles */
+.error-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+    justify-content: center; /* Center modal */
+    align-items: center; /* Center modal */
+}
+
+.modal-icon {
+    font-size: 50px; /* Icon size */
+    text-align: center;
+}
+
+.modal-button {
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.modal-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.success-icon {
+    color: green; /* Success icon color */
+}
+
+.error-icon {
+    color: red; /* Error icon color */
+}
+.modalMessage{
+font-size: 14px;
+color: #000000;
+font-weight: bold;
+margin: 2em 0.5em 1em;
+padding: 0.2em 1em;
+border: 2px solid #00a0d2;
+
+}
+
+.bd-warning{
+   border-color:#ffb900;
+}
+.bd-success{
+    border-color:#46b450;
+}
+.modal-content {
+    max-width: 550px !important;
+}
+
+.errorMsg-country {
+    color: #dc3232;
+    display: none; 
+}
+
+.errorMsg-state {
+    color: #dc3232;
+    display: none;
+}
+
+.errorMsg-city {
+    color: #dc3232;
+    display: none;
+}
+.loader-cover{
+	position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0,0.5);
+	display: none;
+    z-index: 2000;
+
+}
+.loader-img{
+	 position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -80px;
+    width: 160px;
+    height: 160px;
+}
+.bsClose{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
