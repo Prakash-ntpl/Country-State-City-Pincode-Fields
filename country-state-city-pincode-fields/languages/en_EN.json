@@ -1,0 +1,13 @@
+{
+    "countryError": "Please choose a valid country.",
+    "stateError": "Please choose a valid Province/Territory.",
+    "cityError": "Please choose a valid city.",
+    "emailError": "Please enter a valid email",
+    "editcountryLabel": "Select your country.",
+    "editcountryText":"Select country.",
+    "editstateLabel": "Select your Province/Territory.",
+    "editstateText" :"Select Province/Territory.",
+    "editcityLabel": "Enter your city.",
+    "editbtnText"     : "Submit"
+
+}
